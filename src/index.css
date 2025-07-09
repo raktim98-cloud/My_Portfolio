@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+body{
+  background-color: #616161;
+  font-family: "Roboto", sans-serif;
+}
+
+@theme {
+  
+    /* Breakpoint */
+    --breakpoint-*: initial;
+  --breakpoint-xl: 500px; 
+
+  --color-secondary-color-1: #00A0C1;
+  
+   
+ }
+
+ @utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+    padding: 0 15px;
+  }
