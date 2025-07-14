@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
     <Banner/>
-    <Name/>
+    {/* <Name/> */}
     <SocialContact/>
     <Image_Banner/>
     <CoppyRight/>
