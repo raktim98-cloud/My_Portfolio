@@ -7,7 +7,7 @@ function Banner() {
   return (
     <section className=" ">
       <div className="container xl:px-4 px-0 bg-[#D9D9D9]">
-        <div className="relative bg-[#C9CBE3] grid grid-cols-[264px_1fr] xl:grid-cols-[362px_1fr]">
+        <div className="relative bg-[#C9CBE3] grid grid-cols-[300px_1fr] xl:grid-cols-[362px_1fr]">
           <div className="relative">
             <img src={My_Image} alt="image" />
             <div className="absolute left-0 bottom-0 translate-x-0 xl:-translate-y-15 -translate-y-5">
@@ -28,10 +28,11 @@ function Banner() {
               <div>
                 <SaveContactButton />
               </div>
+              <div className="px-2.5 py-3 xl:text-2xl text-[15px]"><a className="text-blue-800 hover:text-white transition-all" href="https://islamibankbd.com/news-events/islami-bank-hospital-and-cardiac-center-inaugurated-in-mirpur" target="blank">ibhccm.com/mirpur</a></div>
             </div>
           </div>
           <div>2</div>
-          <div className="absolute w-[380px] h-[280px] xl:w-[450px] xl:h-[389px] right-0 top-0 translate-x-0 -translate-y-5 ">
+          <div className="absolute w-[380px] h-[320px] xl:w-[450px] xl:h-[389px] right-0 top-0 translate-x-0 -translate-y-5 ">
             <img
               className="w-full h-full object-cover"
               src={Side_image}
@@ -39,10 +40,10 @@ function Banner() {
             />
           </div>
           <div className="absolute flex flex-col items-end w-full xl:w-[410px] h-auto xl:h-[389px] right-0 top-0 translate-x-0 translate-y-0 pl-5">
-            <h2 className="text-2xl xl:text-4xl text-white font-semibold tracking-tight pr-0 xl:pr-2">
+            <h2 className="text-3xl xl:text-4xl text-white font-semibold tracking-tight pr-0 xl:pr-2">
               Expert Imaging
             </h2>
-            <h2 className="text-xl xl:text-3xl text-white font-semibold pr-0 xl:pr-2">
+            <h2 className="text-2xl xl:text-3xl text-white font-semibold pr-0 xl:pr-2">
               Perfect Diagnosis
             </h2>
             <p className="text-[12px] xl:text-[14px] text-white tracking-tight pl-0 xl:pl-[220px] py-2 xl:py-3 font-mono text-right xl:text-left">
@@ -54,6 +55,7 @@ function Banner() {
             </div>
           </div>
         </div>
+        
       </div>
     </section>
   );
