@@ -52,7 +52,7 @@ const ResumeButton = ({ children, onClick, className }) => {
       `}</style>
       
       <button 
-        className={`group relative inline-flex items-center justify-center px-4 py-2 xl:px-6 xl:py-3 text-xs xl:text-sm font-bold text-white bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 rounded-l-full transform transition-all duration-500 hover:scale-105 xl:hover:scale-110 hover:shadow-md xl:hover:shadow-lg hover:shadow-emerald-500/40 xl:hover:shadow-emerald-500/50 active:scale-95 overflow-hidden pulse-glow ${className}`}
+        className={`group relative inline-flex items-center justify-center px-5 py-4 text-[16px] font-bold text-white bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 rounded-l-full transform transition-all duration-500 hover:scale-105 xl:hover:scale-110 hover:shadow-md xl:hover:shadow-lg hover:shadow-emerald-500/40 xl:hover:shadow-emerald-500/50 active:scale-95 overflow-hidden pulse-glow ${className}`}
         onClick={onClick}
       >
         
@@ -70,19 +70,19 @@ const ResumeButton = ({ children, onClick, className }) => {
         
         {/* Floating Document Icon Background */}
         <div className="absolute left-1 xl:left-2 top-1/2 transform -translate-y-1/2 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
-          <FileText className="w-8 h-8 xl:w-10 xl:h-10 text-white document-float" />
+          <FileText className="w-9 h-9 xl:w-10 xl:h-10 text-white document-float" />
         </div>
         
         {/* Button Content */}
         <span className="relative z-10 flex items-center space-x-1 xl:space-x-2 group-hover:text-white transition-colors duration-300">
           <div className="flex items-center space-x-0.5 xl:space-x-1">
-            <FileText className="w-3 h-3 xl:w-4 xl:h-4 icon-bounce" />
-            <Download className="w-2.5 h-2.5 xl:w-3 xl:h-3 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+            <FileText className="w-4 h-4 xl:w-4 xl:h-4 icon-bounce" />
+            <Download className="w-3 h-3 xl:w-3 xl:h-3 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
           <span className="text-slide font-bold tracking-wide">
             {children || "My Resume"}
           </span>
-          <Eye className="w-2.5 h-2.5 xl:w-3 xl:h-3 opacity-0 group-hover:opacity-100 transform translate-x-0.5 xl:translate-x-1 group-hover:translate-x-0 transition-all duration-500" />
+          <Eye className="w-4 h-4  opacity-0 group-hover:opacity-100 transform translate-x-0.5 xl:translate-x-1 group-hover:translate-x-0 transition-all duration-500" />
         </span>
         
         {/* Ripple Effect */}

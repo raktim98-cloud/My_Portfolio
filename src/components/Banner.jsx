@@ -2,6 +2,10 @@ import My_Image from "../image/My_banner_image.jpg";
 import Side_image from "../image/111111111-Photoroom.png";
 import SaveContactButton from "./SaveContactButton";
 import SaveResumeButton from "./SaveResumeButton";
+import Logo from "../image/IBH_Logo.png"
+import Cardiac_logo from "../image/Cardiac.png"
+
+
 
 function Banner() {
   return (
@@ -31,7 +35,19 @@ function Banner() {
               <div className="px-2.5 py-3 xl:text-2xl text-[15px]"><a className="text-blue-800 hover:text-white transition-all" href="https://islamibankbd.com/news-events/islami-bank-hospital-and-cardiac-center-inaugurated-in-mirpur" target="blank">ibhccm.com/mirpur</a></div>
             </div>
           </div>
-          <div>2</div>
+          {/* IBHCCM */}
+          <div className="xl:mt-95 mt-78 ">
+            <div className="xl:w-[77px] pl-1 xl:pl-4 xl:h-[73px] w-[50px] h-[45px]"><img src={Logo} alt={Logo} /></div>
+            <div className=" mt-2">
+                <span className="text-green-800 px-1 xl:text-4xl text-2xl xl:tracking-[6px] -tracking-[2px] font-bold">I</span>
+                <span className="text-green-800 px-1 xl:text-4xl text-2xl xl:tracking-[6px] -tracking-[2px] font-bold">B</span>
+                <span className="text-green-800 px-1 xl:text-4xl text-2xl xl:tracking-[6px] -tracking-[2px] font-bold">H</span>
+            </div>
+            <div className="max-w-[100px] [h-100px] ">
+              <img className="size-full object-cover" src={Cardiac_logo} alt="image" />
+            </div>
+            
+          </div>
           <div className="absolute w-[380px] h-[320px] xl:w-[450px] xl:h-[389px] right-0 top-0 translate-x-0 -translate-y-5 ">
             <img
               className="w-full h-full object-cover"
@@ -54,6 +70,7 @@ function Banner() {
               <SaveResumeButton />
             </div>
           </div>
+          
         </div>
         
       </div>
